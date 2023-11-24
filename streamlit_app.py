@@ -1,7 +1,5 @@
-import pandas ;
 import streamlit ;
-
-
+import pandas ;
 streamlit.title('My Parents New Healthier Diner')
  
 streamlit.header('Breakfast')
@@ -20,4 +18,3 @@ fruit_to_show=my_fruit_list.loc[fruit_selected]
  
  
 streamlit.dataframe(fruit_to_show)
-
